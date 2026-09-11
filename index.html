@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#d7eef0" />
+    <meta name="description" content="Material Lab — una exposición WebGL interactiva sobre agua y flotabilidad." />
+    <title>Poll day — Material Lab</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="webgl" aria-label="Simulación interactiva de una piscina"></canvas>
+
+      <div id="loader" class="loader" aria-live="polite">
+        <div class="loader__label">Initializing fluid simulation</div>
+        <div class="loader__track"><span id="loader-bar"></span></div>
+        <div id="loader-value" class="loader__value">0 — 100%</div>
+      </div>
+
+      <header class="masthead ui-reveal" style="--delay: .6s">
+        <div class="eyebrow">Material Lab <span>№ 001</span></div>
+        <h1>Pool <br /><em>Day.</em></h1>
+        <p>Interactive Fluid Experiment</p>
+      </header>
+
+      <div class="live-pill ui-reveal" style="--delay: .7s"><i></i> WebGL · Live</div>
+      <button id="theme-toggle" class="theme-toggle ui-reveal" style="--delay: .8s" type="button" aria-pressed="false"><span>☾</span> Night</button>
+
+      <div id="object-label" class="object-label"></div>
+      <div id="cursor" class="cursor"><span></span></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
