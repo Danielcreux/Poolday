@@ -1,5 +1,7 @@
 # Material Lab — Pool Day
 
+## [Ver demo en vivo](https://danielcreux.github.io/Poolday/)
+
 **Pool Day** es una experiencia WebGL interactiva desarrollada con **Three.js** y **Vite**, centrada en experimentar con materiales, iluminación, movimiento y simulación visual de agua en tiempo real.
 
 La escena representa una piscina interactiva con objetos flotantes, reflejos dinámicos, caústicas y ondas que reaccionan a la interacción del usuario.
